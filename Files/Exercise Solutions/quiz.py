@@ -1,4 +1,4 @@
-import csv
+import csv, random
 
 def get_questions():
     questions = []
@@ -25,8 +25,16 @@ def ask_question(question,score):
 def main():
     questions = get_questions()
     score = 0
-    for question in questions:
+    print("Welcome to the farming quiz!")
+    print("============================")
+    print()
+    print()
+    number = int(input("There are {0} questions - how many do you want in your quiz: ".format(len(questions))))
+    while number > 0:
+        question = random.choice(questions)
         score = ask_question(question, score)
+        questions.remove(question)
+        number -= 1
     print("Your final score was {0} out of {1}".format(score,len(questions)))
 
 if __name__ == "__main__":
