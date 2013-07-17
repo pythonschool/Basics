@@ -1,0 +1,26 @@
+antelope
+bear
+cat
+dog
+elephant
+fox
+giraffe
+hyena
+iguana
+jaguar
+kangaroo
+llama
+monkey
+ninja turtle
+octopus
+platterpus
+queen bee
+rat
+snake
+tiger
+unicorn
+vole
+whale
+xibit
+yak
+zebra
