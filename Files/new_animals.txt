@@ -1,1 +1,3 @@
-dogcathorse
+dog
+cat
+horse
