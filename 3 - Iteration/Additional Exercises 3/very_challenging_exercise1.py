@@ -2,7 +2,7 @@
 #additional exercises 3, question 7
 #sample solution
 
-print("Decimal to Hexadecimal Conversion")
+print("Decimal to Binary Conversion")
 print("This program converts a given decimal number into the")
 print("equivalent hexadecimal number.")
 print()
