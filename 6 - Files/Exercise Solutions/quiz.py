@@ -30,12 +30,11 @@ def main():
     print()
     print()
     number = int(input("There are {0} questions - how many do you want in your quiz: ".format(len(questions))))
-    while number > 0:
+    for next_question in range(number):
         question = random.choice(questions)
         score = ask_question(question, score)
         questions.remove(question)
-        number -= 1
-    print("Your final score was {0} out of {1}".format(score,len(questions)))
+    print("Your final score was {0} out of {1}.".format(score,number))
 
 if __name__ == "__main__":
     main()
